@@ -49,4 +49,12 @@ public class studenttest {
 		
 		
 	}
+	@Test
+	public void testage() {
+		age=dean.getIage();
+		assertEquals(20,age);
+		
+		
+	}
+	
 }
